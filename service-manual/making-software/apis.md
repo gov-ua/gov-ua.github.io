@@ -1,14 +1,26 @@
 ---
 title: Прикладні програмні інтерфейси
 sub_title: Розробка та використання прикладних програмних інтерфейсів (API's)
-permalink: /making-software/apis/
+category: making-software
+type: guide
+audience:
+  primary: service-managers, tech-archs, developers
+  secondary: chief-technology-officers
+status: draft
+phases:
+  - beta
+  - live
+permalink: /service-manual/making-software/apis/
 breadcrumbs:
   -
+    title: Сервісна документація
+    url: /service-manual/
+  -
     title: Розробка Програмного Забезпечення
-    url: /making-software/
+    url: /service-manual/making-software/
   -
     title: Прикладні програмні інтерфейси
-    url: /making-software/apis/
+    url: /service-manual/making-software/apis/
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>

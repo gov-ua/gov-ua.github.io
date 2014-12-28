@@ -1,14 +1,27 @@
 ---
 title: Вибір технологій
 sub_title: Як обрати, які програмні засоби використовувати
-permalink: /making-software/choising-technology/
+category: making-software
+type: guide
+audience:
+  primary: service-managers, tech-archs, developers
+  secondary: web-ops, chief-technology-officers
+status: draft
+phases:
+  - alpha
+  - beta
+  - live
+permalink: /service-manual/making-software/choising-technology/
 breadcrumbs:
   -
+    title: Сервісна документація
+    url: /service-manual/
+  -
     title: Розробка Програмного Забезпечення
-    url: /making-software/
+    url: /service-manual/making-software/
   -
     title: Вибір технологій
-    url: /making-software/choising-technology/
+    url: /service-manual/making-software/choising-technology/
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>
