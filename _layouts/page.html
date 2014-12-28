@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<header class="site-header">
+    <div class="site-content">
+        <h1 class="site-title">{{ site.title }}</h1>
+        {% if page.breadcrumbs %}
+            <nav class="breadcrumbs">
+                <a href="/" title="Головна сторінка">Головна</a>
+                {% for bc in page.breadcrumbs %}
+                    {% if page.url == bc.url %}
+                        <span>{{ bc.title }}</a>
+                    {% else %}
+                        <a href="{{ bc.url }}"><span>{{ bc.title }}</span></a>
+                    {% endif %}
+                {% endfor %}
+            </nav>
+        {% endif %}
+    </div>
+</header>
+
+<article class="site-content page">
+    {{ content }}
+</article>

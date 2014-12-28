@@ -1,0 +1,17 @@
+title: Gov UA
+timezone: Europe/Kiev
+defaults:
+    -
+        scope:
+            path: "" # an empty string - all files in the project
+        values:
+            layout: "page"
+
+
+markdown: kramdown
+kramdown:
+    input: GFM
+
+destination: .site
+sass:
+    style: :compressed
