@@ -10,7 +10,7 @@ layout: default
                 <a href="/" title="Головна сторінка">Головна</a>
                 {% for bc in page.breadcrumbs %}
                     {% if page.url == bc.url %}
-                        <span>{{ bc.title }}</a>
+                        <span>{{ bc.title }}</span>
                     {% else %}
                         <a href="{{ bc.url }}"><span>{{ bc.title }}</span></a>
                     {% endif %}
