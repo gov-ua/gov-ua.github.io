@@ -7,7 +7,7 @@ layout: default
         <h1 class="site-title">{{ site.title }}</h1>
         {% if page.breadcrumbs %}
             <nav class="breadcrumbs">
-                <a href="/" title="Головна сторінка">Головна</a>
+                <a href="/" title="Головна сторінка"><span class="icon icon-home"></span></a>
                 {% for bc in page.breadcrumbs %}
                     {% if page.url == bc.url %}
                         <span>{{ bc.title }}</span>
