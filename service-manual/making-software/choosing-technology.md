@@ -11,7 +11,7 @@ phases:
   - alpha
   - beta
   - live
-permalink: /service-manual/making-software/choising-technology/
+permalink: /service-manual/making-software/chooising-technology/
 breadcrumbs:
   -
     title: Сервісна документація
@@ -21,7 +21,7 @@ breadcrumbs:
     url: /service-manual/making-software/
   -
     title: Вибір технологій
-    url: /service-manual/making-software/choising-technology/
+    url: /service-manual/making-software/chooising-technology/
 ---
 
 <h1 class="page-title">{{ page.title }}</h1>

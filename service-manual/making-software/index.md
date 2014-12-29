@@ -23,7 +23,7 @@ breadcrumbs:
 
 Основи
 =========
-- [Вибір технологій](/service-manual/making-software/choising-technology/)
+- [Вибір технологій](/service-manual/making-software/chooising-technology/)
 - [Прикладні програмні інтерфейси (API)](/service-manual/making-software/apis/)
 - [Cookies](/service-manual/making-software/cookies/)
 - [Release strategies](/service-manual/making-software/release-strategies/)
