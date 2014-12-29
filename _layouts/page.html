@@ -12,7 +12,7 @@ layout: default
                     {% if page.url == bc.url %}
                         <span>{{ bc.title }}</span>
                     {% else %}
-                        <a href="{{ bc.url }}">{{ bc.title }}</a>
+                        <a href="{{ bc.url }}" title="{{ bc.title }}">{{ bc.title | truncate: 23 }}</a>
                     {% endif %}
                 {% endfor %}
             </nav>
