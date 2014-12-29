@@ -102,6 +102,7 @@ a {
     padding: 0 $page-padding;
     color: $header-color;
     background: $header-background;
+    border-bottom: 1px solid $header-background; // IE5.5 fix: ignore margin
     overflow: hidden;
 }
 
