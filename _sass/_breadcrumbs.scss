@@ -8,7 +8,6 @@ $bc-hover-border-color: #000;
 
 .breadcrumbs > span {
     width: 100%;
-    margin-left: 19px;
 }
 
 .breadcrumbs a {
@@ -20,14 +19,6 @@ $bc-hover-border-color: #000;
     border: 1px solid $bc-border-color;
     background: $bc-background;
     text-decoration: none;
-
-    & > span {
-        display: block;
-        max-width: 12em;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
 
     &:visited {
         color: $bc-color;
@@ -42,6 +33,10 @@ $bc-hover-border-color: #000;
     &:first-child {
         padding-left: 10px;
         border-radius: 3px 0 0 3px;
+    }
+
+    &:nth-last-child(2) {
+        margin-right: 13px;
     }
 
     &:not(:last-child):after {
