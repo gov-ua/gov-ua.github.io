@@ -7,7 +7,8 @@ $bc-hover-background: #AAA;
 $bc-hover-border-color: #000;
 
 .breadcrumbs > span {
-    width: 100%;
+    display: inline-block;
+    padding: 1px 6px 2px;
 }
 
 .breadcrumbs a {
@@ -36,7 +37,7 @@ $bc-hover-border-color: #000;
     }
 
     &:nth-last-child(2) {
-        margin-right: 13px;
+        margin-right: 7px;
     }
 
     &:not(:last-child):after {
