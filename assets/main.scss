@@ -15,7 +15,7 @@ $base-color: #333;
 $base-font: Verdana, Geneva, sans-serif;
 $base-font-size: 16px;
 $base-line-height: $base-font-size * 1.618;
-$title-font: Georgia, Times, "Times New Roman", serif;
+$title-font: "PT Sans", Georgia, Times, "Times New Roman", serif;
 $spacing: $base-font-size;
 
 @function em($px, $base: $base-font-size) {
@@ -49,11 +49,11 @@ body {
 
 /* spacing */
 p, blockquote, pre, {
-    margin: $spacing 0;
+    margin: em($spacing) 0;
 }
 ul, ol {
-    margin-top: $spacing;
-    margin-down: $spacing;
+    margin-top: em($spacing);
+    margin-down: em($spacing);
 }
 
 li {
@@ -61,7 +61,7 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: em($spacing) 0 $spacing;
+    margin: em($spacing) 0 em($spacing * 0.5);
     font-family: $title-font;
 }
 
